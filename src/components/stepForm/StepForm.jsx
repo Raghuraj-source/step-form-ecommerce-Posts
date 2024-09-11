@@ -2,6 +2,7 @@ import  { useState } from 'react';
 import { useForm, FormProvider } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
+
 import PersonalDetails from './PersonalDetails';
 import AddressDetails from './AddressDetails';
 import PaymentDetails from './PaymentDetails';
